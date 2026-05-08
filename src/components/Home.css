@@ -1,0 +1,53 @@
+.hero-section {
+    padding: 0 120px;
+}
+
+.hero-box {
+    background-image: url("https://m.media-amazon.com/images/I/71qinZyR2oL._SX3000_.jpg");
+    height: 46rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.category-row {
+    padding: 290px 30px 0 30px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.category-title > h1 {
+    font-size: 1.2rem;
+}
+
+.category-box {
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 20px;
+}
+
+.category-name > p {
+    color: #444;
+    font-size: 0.8rem;
+    font-weight: 560;
+}
+
+.product-links {
+    display: grid;
+    gap: 25px;
+    grid-template-columns: 150px 150px;
+}
+
+.category-image img {
+    width: 100%;
+}
+
+.category-cta > p {
+    font-size: 0.9rem;
+    text-decoration: underline;
+    color: royalblue;
+    margin-top: 25px;
+}

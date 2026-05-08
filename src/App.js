@@ -1,11 +1,15 @@
 import React from 'react';
-import Header from './components/layout/Header';
+// import Header from './components/layout/Header';
+import Home from './components/Home';
 
 const App = () => {
   return (
     <>
 
-      <Header />
+      {/* <Header /> */}
+
+      <Home />
+
 
     </>
   );
