@@ -16,17 +16,17 @@ const Products = () => {
                     {/* product no.1 */}
                     <div className='product'>
                         <div className='product-img'>
-                            <img src='https://m.media-amazon.com/images/I/61yXIBemh9L._AC_UL320_.jpg' alt='' />
+                            <img src='https://m.media-amazon.com/images/I/51Myzbn37UL._AC_UL320_.jpg' alt='' />
                         </div>
                         <div className='product-description'>
-                            <p>UGREEN Bluetooth 5.4 Adapter for PC, USB Bluetooth le Receiver, EDR and BLE Modes, Long Range</p>
+                            <p>Headphone Mic Splitter CTIA Standard 3.5mm Female to 2 Dual 3.5mm Jack Male Microphone Audio Y Splitter Adapter Cable </p>
                         </div>
                         <div className='product-price'>
                             <div className='currency'>
                                 <p>R</p>
                             </div>
                             <div className='price-amount'>
-                                <p>175</p>
+                                <p>145</p>
                             </div>
                         </div>
                         <div className='delivery-details'>
@@ -112,17 +112,17 @@ const Products = () => {
                     {/* product no.5 */}
                     <div className='product'>
                         <div className='product-img'>
-                            <img src='https://m.media-amazon.com/images/I/71ldQjr-BNL._AC_UL320_.jpg' alt='' />
+                            <img src='https://m.media-amazon.com/images/I/51n1pdH5v3L._AC_UL320_.jpg' alt='' />
                         </div>
                         <div className='product-description'>
-                            <p>Logitech G923 TRUEFORCE Racing Wheel & Pedals | Dual-Motor Force Feedback | Programmable Dual Clutch | Premium Leather Wheel</p>
+                            <p>Beelink SER9 Pro AI Mini PC, AMD Ryzen AI 9 HX 370&#40;80TOPS,12C/24T,5.1GHz&#41;, 32G LPDDR5X 1TB PCIe4.0 x4 SSD</p>
                         </div>
                         <div className='product-price'>
                             <div className='currency'>
                                 <p>R</p>
                             </div>
                             <div className='price-amount'>
-                                <p>8 299</p>
+                                <p>38 230</p>
                             </div>
                         </div>
                         <div className='delivery-details'>
@@ -133,19 +133,20 @@ const Products = () => {
                         </div>
                     </div>
 
+                    {/* product no.6 */}
                     <div className='product'>
                         <div className='product-img'>
-                            <img src='https://m.media-amazon.com/images/I/61yXIBemh9L._AC_UL320_.jpg' alt='' />
+                            <img src='https://m.media-amazon.com/images/I/51UEhyCeEOL._AC_UL320_.jpg' alt='' />
                         </div>
                         <div className='product-description'>
-                            <p>UGREEN Bluetooth 5.4 Adapter for PC, USB Bluetooth le Receiver, EDR and BLE Modes, Long Range</p>
+                            <p>ORICO 4-Port USB 3.0 Aluminum HUB Portable HUB with 2Ft. USB 3.0 Cable Compatible with Macs, Mac Books, Mac Book Pros,Mac Book Air</p>
                         </div>
                         <div className='product-price'>
                             <div className='currency'>
                                 <p>R</p>
                             </div>
                             <div className='price-amount'>
-                                <p>175</p>
+                                <p>507</p>
                             </div>
                         </div>
                         <div className='delivery-details'>
@@ -156,19 +157,20 @@ const Products = () => {
                         </div>
                     </div>
 
+                    {/* product no.7 */}
                     <div className='product'>
                         <div className='product-img'>
-                            <img src='https://m.media-amazon.com/images/I/61yXIBemh9L._AC_UL320_.jpg' alt='' />
+                            <img src='https://m.media-amazon.com/images/I/61o69LB9vML._AC_UL320_.jpg' alt='' />
                         </div>
                         <div className='product-description'>
-                            <p>UGREEN Bluetooth 5.4 Adapter for PC, USB Bluetooth le Receiver, EDR and BLE Modes, Long Range</p>
+                            <p>Logitech C270 HD Webcam, HD 720p/30fps, Widescreen HD Video Calling, HD Light Correction, Noise-Reducing Mic, Streaming</p>
                         </div>
                         <div className='product-price'>
                             <div className='currency'>
                                 <p>R</p>
                             </div>
                             <div className='price-amount'>
-                                <p>175</p>
+                                <p>339</p>
                             </div>
                         </div>
                         <div className='delivery-details'>
@@ -179,19 +181,20 @@ const Products = () => {
                         </div>
                     </div>
 
+                    {/* product no.8 */}
                     <div className='product'>
                         <div className='product-img'>
-                            <img src='https://m.media-amazon.com/images/I/61yXIBemh9L._AC_UL320_.jpg' alt='' />
+                            <img src='https://m.media-amazon.com/images/I/51Sc2182SPL._AC_UL320_.jpg' alt='' />
                         </div>
                         <div className='product-description'>
-                            <p>UGREEN Bluetooth 5.4 Adapter for PC, USB Bluetooth le Receiver, EDR and BLE Modes, Long Range</p>
+                            <p>Astrum KB350 USB Mini Slim Wired Keyboard with 78 keys, silent keys, 7 multiedia buttons, multiple shortcuts for desktops, PC, Laptops</p>
                         </div>
                         <div className='product-price'>
                             <div className='currency'>
                                 <p>R</p>
                             </div>
                             <div className='price-amount'>
-                                <p>175</p>
+                                <p>113</p>
                             </div>
                         </div>
                         <div className='delivery-details'>
@@ -202,19 +205,20 @@ const Products = () => {
                         </div>
                     </div>
 
+                    {/* product no.9 */}
                     <div className='product'>
                         <div className='product-img'>
-                            <img src='https://m.media-amazon.com/images/I/61yXIBemh9L._AC_UL320_.jpg' alt='' />
+                            <img src='https://m.media-amazon.com/images/I/81Wk6UsArBL._AC_UL320_.jpg' alt='' />
                         </div>
                         <div className='product-description'>
-                            <p>UGREEN Bluetooth 5.4 Adapter for PC, USB Bluetooth le Receiver, EDR and BLE Modes, Long Range</p>
+                            <p>60 pcs Kids Eye Cotton Eye Patch Fabric Breathable For Pediatric Amblyopia - Pink</p>
                         </div>
                         <div className='product-price'>
                             <div className='currency'>
                                 <p>R</p>
                             </div>
                             <div className='price-amount'>
-                                <p>175</p>
+                                <p>559</p>
                             </div>
                         </div>
                         <div className='delivery-details'>
@@ -225,19 +229,20 @@ const Products = () => {
                         </div>
                     </div>
 
+                    {/* product no.10 */}
                     <div className='product'>
                         <div className='product-img'>
-                            <img src='https://m.media-amazon.com/images/I/61yXIBemh9L._AC_UL320_.jpg' alt='' />
+                            <img src='https://m.media-amazon.com/images/I/31Q80dIjaML._AC_UL320_.jpg' alt='' />
                         </div>
                         <div className='product-description'>
-                            <p>UGREEN Bluetooth 5.4 Adapter for PC, USB Bluetooth le Receiver, EDR and BLE Modes, Long Range</p>
+                            <p>RGB Monitor Light Bar - Dual Light Source Desk Lamp for PC & Gaming</p>
                         </div>
                         <div className='product-price'>
                             <div className='currency'>
                                 <p>R</p>
                             </div>
                             <div className='price-amount'>
-                                <p>175</p>
+                                <p>489</p>
                             </div>
                         </div>
                         <div className='delivery-details'>
