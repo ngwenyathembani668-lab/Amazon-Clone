@@ -1,5 +1,7 @@
 import React from 'react';
 import './Products.css';
+// import { Link } from 'react-router-dom';
+// import Cart from './Cart';
 
 const products = [
     { id: 1, name: "Headphone Mic Splitter", price: 198, rating: 4.5, image: "https://m.media-amazon.com/images/I/51Myzbn37UL._AC_UL320_.jpg" },
@@ -64,6 +66,8 @@ const Products = () => {
                 </div>
 
             </section>
+
+            
 
         </>
     );

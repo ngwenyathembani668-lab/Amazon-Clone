@@ -1,6 +1,7 @@
 import React from 'react';
 import './Cart.css';
-import { Link } from 'react-router-dom/cjs/react-router-dom.min';
+import { Link } from 'react-router-dom';
+// import Home from './Home';
 // import { Link } from 'react-router-dom/cjs/react-router-dom';
 // import { Router, Route, Switch, } from "react-router-dom";
 
@@ -48,7 +49,7 @@ const Cart = ({ cart, setCart }) => {
         )}
         <h3>Total: R{total.toFixed(2)}</h3>
 
-        <Link to="/">home</Link>
+        <Link to="/cart" element={<Cart />} >home</Link>
       </div>
 
     </>

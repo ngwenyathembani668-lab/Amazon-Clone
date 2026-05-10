@@ -2,7 +2,11 @@ import React from 'react';
 // import Header from './layout/Header';
 import './Home.css';
 import './Products.css';
+import Cart from './Cart';
+// import './Cart'
 import { Link } from 'react-router-dom';
+// import { Routes, Route } from 'react-router-dom';
+// import Cart from './Cart';
 
 // import Products from './Products';
 // import products from './Products';
@@ -366,11 +370,23 @@ const Home = ({ cart, setCart }) => {
 
         </div>
 
-        <Link to="/cart">
+        <Link to="/cart" element={<Cart />} >cart</Link>
+
+
+        {/* <BrowserRouter> */}
+        {/* <Routes>
+            <Route path='/' element={<Home cart={cart} setCart={setCart} />} />
+            <Route path='/cart' element={<Cart />} />
+          </Routes> */}
+        {/* </BrowserRouter> */}
+
+        {/* <Link to="/cart">
           cart
-        </Link>
+        </Link> */}
 
       </section>
+
+
 
     </>
   );

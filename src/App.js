@@ -1,11 +1,10 @@
 import React, { useState, useEffect } from 'react';
-import { BrowserRouter as Router, Route, Switch, } from "react-router-dom";
-// import { Link } from 'react-router-dom';
+// import { Routes, Route, BrowserRouter } from 'react-router-dom';
 
 // import Header from './components/layout/Header';
 import Home from './components/Home';
 import '../src/components/layout/Header.css'
-import Cart from './components/Cart';
+// import Cart from './components/Cart';
 
 const App = () => {
 
@@ -179,21 +178,28 @@ const App = () => {
 
       </div>
 
-      <Router>
+      <Home  cart={cart} setCart={setCart} />
+
+      {/* <Link to="/cart">
+        cart
+      </Link> */}
+
+{/*       
         <Switch>
           <Route
             exact path="/"
-            render={(props) => <Home {...props} cart={cart} setCart={setCart} />}
+            render={(routeProps) => <Home {...routeProps} cart={cart} setCart={setCart} />}
           />
 
           <Route
             path="/cart"
-            render={(props) => <Cart {...props} cart={cart} setCart={setCart} />}
+            render={(routeProps) => <Cart {...routeProps} cart={cart} setCart={setCart} />}
           />
-        </Switch>
+        </Switch> */}
 
 
-      </Router>
+
+      {/* </withRouter> */}
 
 
     </>
