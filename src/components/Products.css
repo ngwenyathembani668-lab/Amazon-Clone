@@ -71,3 +71,17 @@
 .addToCart-btn > button:hover {
     background: #cda503;
 }
+
+.product-rating {
+    display: flex;
+    align-items: center;
+}
+
+.product-rating > svg {
+    width: 24px;
+    fill: orange;
+}
+
+.space {
+    padding-left: 20px;
+}
