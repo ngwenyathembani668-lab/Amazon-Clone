@@ -12,3 +12,7 @@
 body {
     margin-bottom: 450px;
 }
+
+a {
+    text-decoration: none;
+}

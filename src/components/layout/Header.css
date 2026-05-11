@@ -7,6 +7,8 @@ nav {
     background: #000;
     color: #fff;
     gap: 15px;
+    position: sticky;
+    top: 0;
 }
 
 .nav-left {
@@ -112,7 +114,6 @@ select {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* padding: 8px 20px; */
     background: #232F3E;
     color: #fff;
     height: 40px;
@@ -120,7 +121,7 @@ select {
 
 .sub-nav-left {
     display: flex;
-    gap: 20px;
+    gap: 10px;
     padding: 0 20px;
 }
 
@@ -135,4 +136,25 @@ select {
 .sub-nav-right > span {
     font-size: 1.3rem;
     font-weight: 600;
+}
+
+.header-links {
+    text-decoration: none;
+    color: #fff;
+}
+
+.border {
+    padding: 3px;
+}
+
+.border:hover {
+    border: 1px solid #fff;
+}
+
+.sub-nav-left > div:hover {
+    border: 1.4px solid #fff;
+}
+
+.sub-nav-left > div {
+    padding: 5px 10px;
 }

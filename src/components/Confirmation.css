@@ -1,0 +1,17 @@
+.confirmation {
+    text-align: center;
+    padding-top: 80px;
+}
+
+.confirmation > h2 {
+    font-size: 2.1rem;
+    margin-bottom: 40px;
+}
+
+.confirmation > p {
+    margin-top: 10px;
+}
+
+.home-btn {
+    margin-top: 40px;
+}

@@ -2,12 +2,13 @@ import React from 'react';
 import Header from './layout/Header';
 import './Home.css';
 import Products from './Products';
+import { Link } from 'react-router-dom';
 
 
-const Home = () => {
+const Home = ({ cart, setCart }) => {
   return (
     <>
-      <Header />
+      <Header cart={cart} />
 
       <section className='hero-section'>
 
@@ -291,7 +292,13 @@ const Home = () => {
 
       </section>
 
-      <Products />
+      <div className='link-to-cart'>
+        <Link to={"/cart"}>
+          View cart
+        </Link>
+      </div>
+
+      <Products cart={cart} setCart={setCart} />
 
     </>
   );

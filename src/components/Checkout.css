@@ -1,0 +1,39 @@
+.checkout {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* justify-content: ; */
+    padding-top: 80px;
+    
+    /* width: ; */
+}
+
+.checkout > form {
+    width: 600px;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    gap: 17px;
+    align-items: center;
+    border-radius: 15px;
+    margin-top: 40px;
+    box-shadow: 0 0 4px 4px rgba(0, 0, 0, 0.3);
+}
+
+.checkout > form > input {
+    height: 40px;
+    width: 80%;
+}
+
+.checkout > form > input::-webkit-input-placeholder {
+    color: #444;
+    font-weight: 600;
+    padding-left: 20px;
+}
+
+.background {
+    width: 100%;
+    height: 100vh;
+    background: #d8d8d8;
+}

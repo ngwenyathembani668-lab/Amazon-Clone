@@ -1,8 +1,6 @@
 import React from 'react';
 import './Products.css';
 
-
-
 const products = [
     { id: 1, name: "Headphone Mic Splitter", price: 198, rating: 4.5, image: "https://m.media-amazon.com/images/I/51Myzbn37UL._AC_UL320_.jpg" },
     { id: 2, name: "PCBuilder AMD Ryzen 5 5600G", price: 499, rating: 4.2, image: "https://m.media-amazon.com/images/I/61d9fD9DlwL._AC_UL320_.jpg" },
@@ -17,9 +15,18 @@ const products = [
     // ...at least 8 products
 ];
 
+const Products = ({ cart, setCart }) => {
+    const addToCart = (product) => {
+        const existingItem = cart.find(item => item.id === product.id);
+        if (existingItem) {
+            setCart(cart.map(item =>
+                item.id === product.id ? { ...item, quantity: item.quantity + 1 } : item
+            ));
+        } else {
+            setCart([...cart, { ...product, quantity: 1 }]);
+        }
+    };
 
-
-const Products = () => {
     return (
         <>
 
@@ -57,7 +64,7 @@ const Products = () => {
                                 <p>FREE delivery <strong>12 &ndash; 15 May</strong></p>
                             </div>
                             <div className='addToCart-btn space'>
-                                <button>Add to basket</button>
+                                <button onClick={() => addToCart(product)}>Add to basket</button>
                             </div>
                         </div>
 
