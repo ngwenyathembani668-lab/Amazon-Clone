@@ -17,7 +17,7 @@
     /* display: flex; */
     grid-template-columns: 210px 210px 210px 210px;
     justify-content: center;
-    gap: 80px;
+    gap: 120px;
     margin-top: 50px;
 }
 
@@ -84,4 +84,26 @@
 
 .space {
     padding-left: 20px;
+}
+
+@media (max-width: 1366px) {
+    .products-list {
+        grid-template-columns: 210px 210px 210px;
+        /* gap: 100px; */
+    }
+}
+
+@media (max-width: 1152px) {
+    .products-list {
+        grid-template-columns: 210px 210px;
+        /* gap: 150px; */
+        padding-right: 60px;
+    }
+
+}
+
+@media (max-width: 698px) {
+    .products-list {
+        grid-template-columns: 210px;
+    }
 }

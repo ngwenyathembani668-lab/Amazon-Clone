@@ -1,9 +1,25 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import "./Header.css";
 import { Link } from 'react-router-dom';
 
 const Header = ({ cart }) => {
+    const [isDarkMode, setIsDarkMode] = useState(false);
     const cartCount = cart.reduce((sum, item) => sum + item.quantity, 0);
+
+    useEffect(() => {
+        const storedTheme = localStorage.getItem('theme');
+        const darkTheme = storedTheme === 'dark';
+        setIsDarkMode(darkTheme);
+        document.body.classList.toggle('dark-mode', darkTheme);
+    }, []);
+
+    const toggleTheme = () => {
+        const nextMode = !isDarkMode;
+        setIsDarkMode(nextMode);
+        document.body.classList.toggle('dark-mode', nextMode);
+        localStorage.setItem('theme', nextMode ? 'dark' : 'light');
+    };
+
     return (
         <>
 
@@ -110,45 +126,51 @@ const Header = ({ cart }) => {
                         </span>
                     </div>
 
-                    <div>
+                    <div className='deals'>
                         <span>
                             {/* svg */}
                             Customer Service
                         </span>
                     </div>
 
-                    <div>
+                    <div className='deals'>
                         <span>
                             {/* svg */}
                             Today's Deals
                         </span>
                     </div>
 
-                    <div>
+                    <div className='display-none'>
                         <span>
                             {/* svg */}
                             Keep Shopping for
                         </span>
                     </div>
 
-                    <div>
+                    <div className='display-none'>
                         <span>
                             {/* svg */}
                             Everyday Essentials
                         </span>
                     </div>
 
-                    <div>
+                    <div className='display-none'>
                         <span>
                             {/* svg */}
                             Best Sellers
                         </span>
                     </div>
 
-                    <div>
+                    <div className='display-none'>
                         <span>
                             {/* svg */}
                             Welcome to Amazon
+                        </span>
+                    </div>
+
+                    <div>
+                        <span className='dark-light-mode' onClick={toggleTheme}>
+                            {isDarkMode ? 'Light mode' : 'Dark mode'}
                         </span>
                     </div>
 

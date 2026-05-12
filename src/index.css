@@ -1,16 +1,48 @@
 /* font family */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
-
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+}
+
+:root {
+    --bg: #ffffff;
+    --text: #111111;
+    --text-muted: #6b7280;
+    --nav-bg: #000000;
+    --nav-text: #ffffff;
+    --subnav-bg: #232f3e;
+    --subnav-text: #ffffff;
+    --subnav-right-bg: #146acf;
+    --search-bg: #ffffff;
+    --search-text: #000000;
+    --button-bg: #febd69;
+    --border-color: rgba(255, 255, 255, 0.2);
 }
 
 body {
-    margin-bottom: 450px;
+    font-family: "Roboto", sans-serif; 
+    margin-bottom: 50px;
+    background: var(--bg);
+    color: var(--text);
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+body.dark-mode {
+    --bg: #0b1118;
+    --text: #e5e7eb;
+    --text-muted: #9ca3af;
+    --nav-bg: #000;
+    --nav-text: #ffffff;
+    --subnav-bg: #1a2430;
+    --subnav-text: #f8fafc;
+    --subnav-right-bg: #1f6df1;
+    --search-bg: #1f2937;
+    --search-text: #ffffff;
+    --button-bg: #f59e0b;
+    --border-color: rgba(255, 255, 255, 0.25);
 }
 
 a {

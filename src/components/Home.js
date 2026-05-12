@@ -39,7 +39,7 @@ const Home = ({ cart, setCart }) => {
                 </div>
 
                 {/* product no.2 */}
-                <div className='category-preview'>
+                <div className='category-preview product-two'>
 
                   <div className='category-image'>
                     <img src='https://images-eu.ssl-images-amazon.com/images/G/53/Amazon.za/Events/2026/Mothers_day/Mothers_days_186x116_Cozy._SY116_CB780402600_.jpg' alt='' />
@@ -63,7 +63,7 @@ const Home = ({ cart, setCart }) => {
                 </div>
 
                 {/* product no.4 */}
-                <div className='category-preview'>
+                <div className='category-preview product-two'>
 
                   <div className='category-image'>
                     <img src='https://images-eu.ssl-images-amazon.com/images/G/53/Amazon.za/Events/2026/Mothers_day/Mothers_days_186x116_Books._SY116_CB780402600_.jpg' alt='' />
@@ -85,10 +85,10 @@ const Home = ({ cart, setCart }) => {
 
 
             {/* box no.2 */}
-            <div className='category-box'>
+            <div className='category-box category-two'>
 
               <div className='category-title'>
-                <h1>Mothers Day gifting</h1>
+                <h1>Tech</h1>
               </div>
 
               <div className='product-links'>
@@ -152,7 +152,7 @@ const Home = ({ cart, setCart }) => {
 
 
             {/* box no.3 */}
-            <div className='category-box'>
+            <div className='category-box category-three'>
 
               <div className='category-title'>
                 <h1>Welcome to Amazon</h1>
@@ -219,7 +219,7 @@ const Home = ({ cart, setCart }) => {
 
 
             {/* box no.4 */}
-            <div className='category-box'>
+            <div className='category-box category-four'>
 
               <div className='category-title'>
                 <h1>15% off Everyday Essentials</h1>
