@@ -12,7 +12,7 @@ const products = [
     { id: 8, name: "Astrum KB350 USB Mini Slim Wired Keyboard with 78 keys, silent keys", price: 113 , rating: 3.5, image: "https://m.media-amazon.com/images/I/51Sc2182SPL._AC_UL320_.jpg" },
     { id: 9, name: "60 pcs Kids Eye Cotton Eye Patch Fabric Breathable For Pediatric Amblyopia - Pink", price: 559 , rating: 5.0, image: "https://m.media-amazon.com/images/I/81Wk6UsArBL._AC_UL320_.jpg" },
     { id: 10, name: "RGB Monitor Light Bar - Dual Light Source Desk Lamp for PC & Gaming", price: 489 , rating: 4.9, image: "https://m.media-amazon.com/images/I/31Q80dIjaML._AC_UL320_.jpg" },
-    // ...at least 8 products
+    
 ];
 
 const Products = ({ cart, setCart }) => {
